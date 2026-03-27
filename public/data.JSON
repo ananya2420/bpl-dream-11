@@ -1,0 +1,62 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerCompany": "India",
+    "playerType": "Batsman",
+    "rating": 9.5,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 1500000,
+    "playerImg": "https://example.com/images/virat_kohli.png"
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerCompany": "England",
+    "playerType": "All-Rounder",
+    "rating": 9.2,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1200000,
+    "playerImg": "https://example.com/images/ben_stokes.png"
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerCompany": "India",
+    "playerType": "Bowler",
+    "rating": 9.3,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1100000,
+    "playerImg": "https://example.com/images/jasprit_bumrah.png"
+  },
+  {
+    "playerName": "Steve Smith",
+    "playerCompany": "Australia",
+    "playerType": "Batsman",
+    "rating": 9.0,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "price": 1300000,
+    "playerImg": "https://example.com/images/steve_smith.png"
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerCompany": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 8.8,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1000000,
+    "playerImg": "https://example.com/images/kane_williamson.png"
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerCompany": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 8.9,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg spin",
+    "price": 950000,
+    "playerImg": "https://example.com/images/rashid_khan.png"
+  }
+]
