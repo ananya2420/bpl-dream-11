@@ -1,16 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { use } from 'react';
+import { AvailablePlayers } from './AvailablePlayers';
+
+
 
 export const Players = ({ playersPromise }) => {
-  const [data, setData] = useState([]);
+  if (!playersPromise) {
+    // Fallback UI if the promise isn't provided yet
+    return <div>Loading players...</div>;
+  }
 
-  useEffect(() => {
-    if (!playersPromise) return; // <-- prevent undefined errors
+  const players = use(playersPromise); // suspends until resolved
 
-    playersPromise
-      .then((res) => res.json())
-      .then((json) => setData(json))
-      .catch((err) => console.error('Failed to load players:', err));
-  }, [playersPromise]);
+  // Ensure data is always an array
+  //const playersArray = Array.isArray(data) ? data : data.players || [];
+  //console.log(data)
 
-  return <div>players: {data.length}</div>;
+  return (
+    <div className='container mx-auto'>
+      players: {players.length}
+
+     <AvailablePlayers players={players}/>
+    </div>
+  );
 };
