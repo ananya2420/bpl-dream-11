@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFlag, FaUser } from "react-icons/fa"; 
 import { Card } from '../../ui/Card';
 
-export const AvailablePlayers = ({ players }) => {
+export const AvailablePlayers = ({ players,setCoin,coin,setSelectedPlayers,selectedPlayers }) => {
     console.log(players,'players');
 
   return (
@@ -13,7 +13,8 @@ export const AvailablePlayers = ({ players }) => {
                 console.log(player,'player')
 
                 return (
-                 <Card player={player}/>
+
+                 <Card key={player.playerName} player={player} setCoin={setCoin} coin={coin} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers} />
                 )
             })
         }

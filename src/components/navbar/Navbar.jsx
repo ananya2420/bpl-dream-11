@@ -1,6 +1,6 @@
 import React from 'react'
 import dollerImg from "../../assets/dollar 1.png"
-export const Navbar = () => {
+export const Navbar = ({coin}) => {
   return (
     <div>
         <div className="navbar bg-base-100 shadow-sm container mx-auto">
@@ -9,8 +9,8 @@ export const Navbar = () => {
   </div>
   <div className="flex-none">
     <button className="btn btn-square items-center gap-2 font-bold text-xl">
-        0 icons
-      <img src={dollerImg} alt="" />
+          {coin} coins
+        <img src={dollerImg} alt="" />
     </button>
   </div>
 </div>
