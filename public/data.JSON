@@ -7,7 +7,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
     "price": 500,
-    "playerImg": "https://i.ibb.co.com/5gX96Jzr/images.webp"
+    "playerImg": "/public/images/images.jpeg"
   },
   {
     "playerName": "Ben Stokes",
@@ -17,7 +17,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
     "price": 1500,
-    "playerImg": "https://i.ibb.co.com/5gX96Jzr/images.webp"
+    "playerImg": "/public/images/images (3).jpeg"
   },
   {
     "playerName": "Jasprit Bumrah",
@@ -27,7 +27,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
     "price": 2500,
-    "playerImg": "https://i.ibb.co.com/5gX96Jzr/images.webp"
+    "playerImg": "/public/images/images (1).jpeg"
   },
   {
     "playerName": "Steve Smith",
@@ -37,7 +37,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg break",
     "price": 3500,
-    "playerImg": "https://i.ibb.co.com/5gX96Jzr/images.webp"
+    "playerImg": "/public/images/images (2).jpeg"
   },
   {
     "playerName": "Kane Williamson",
@@ -47,7 +47,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "price": 4500,
-    "playerImg": "https://i.ibb.co.com/5gX96Jzr/images.webp"
+    "playerImg": "/public/images/images (4).jpeg"
   },
   {
     "playerName": "Rashid Khan",
@@ -57,6 +57,6 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg spin",
     "price": 5500,
-    "playerImg": "https://i.ibb.co.com/5gX96Jzr/images.webp"
+    "playerImg": "/public/images/images (5).jpeg"
   }
 ]
