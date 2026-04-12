@@ -1,4 +1,4 @@
-Live Link: https://playful-cupcake-7483fa.netlify.app/
+
 
 
 # 🏏 Cricket Player Selection App
@@ -8,7 +8,7 @@ A React-based cricket player selection system where users can select players usi
 ---
 
 ## 🚀 Live Demo
-https://your-netlify-link.netlify.app
+Live Link: https://playful-cupcake-7483fa.netlify.app/
 
 ---
 
